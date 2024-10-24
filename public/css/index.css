@@ -5,4 +5,29 @@ body {
   background-color: #121212;
   color: #fff;
 }
+
+main {
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+#title-area {
+  display: flex;
+  flex-direction: column;
+}
+
+.proxylogo {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.7em;
+}
+
+
   
