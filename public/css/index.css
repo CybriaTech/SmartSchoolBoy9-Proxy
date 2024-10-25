@@ -10,6 +10,7 @@ main {
   align-items: center;
   text-align: center;
   display: flex;
+  min-height: 100vh;
 }
 
 #title-area {
@@ -18,15 +19,17 @@ main {
 }
 
 .proxylogo {
-  width: 32px;
-  height: 32px;
-  object-fit: cover;
+  width: 64px;
+  max-width: 100px;
+  height: auto; 
+  object-fit: contain;
   text-align: center;
+  margin: 0 auto;
 }
 
 .subtitle {
   text-align: center;
-  font-size: 1.7em;
+  font-size: 1.3em;
 }
 
 
