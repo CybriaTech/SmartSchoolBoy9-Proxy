@@ -25,7 +25,7 @@ main {
   height: auto; 
   object-fit: contain;
   text-align: center;
-  margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 .subtitle {
@@ -38,7 +38,7 @@ main {
   height: 70px;
   border-radius: 5px;
   border: none;
-  background-color: #3F3F3F;
+  background-color: #1a1419;
   padding-inline-end: 40px;
   padding-left: 10px;
   position: relative;
