@@ -19,8 +19,8 @@ main {
 }
 
 .proxylogo {
-  width: 64px;
-  max-width: 100px;
+  width: 240px;
+  max-width: 300px;
   height: auto; 
   object-fit: contain;
   text-align: center;
