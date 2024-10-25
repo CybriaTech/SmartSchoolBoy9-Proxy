@@ -32,5 +32,31 @@ main {
   font-size: 1.3em;
 }
 
+.uv-bar {
+  width: 100%;
+  max-width: 1000px;
+  height: 90px;
+  border-radius: 5px;
+  border: none;
+  background-color: #282828;
+  padding-inline-end: 40px;
+  position: relative;
+  color: #fff;
+  font-size: 50px;
+}
+
+.uv-bar::placeholder {
+  color: #c2c2c2;
+  font-size: 50px;
+  align-items: center;
+  display: flex;
+  margin-right: 10px;
+}
+
+.uv-bar:focus {
+  outline: none;
+  border-color: transparent;
+}
+
 
   
