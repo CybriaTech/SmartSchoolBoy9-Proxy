@@ -38,7 +38,7 @@ main {
 .uv-bar {
   width: 1000px;
   height: 70px;
-  border-radius: 5px;
+  border-radius: 10px;
   border: none;
   background-color: #282828;
   padding-inline-end: 40px;
