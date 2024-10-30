@@ -6,6 +6,66 @@ body {
   color: #fff;
 }
 
+header {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  background-color: #202020;
+  border-bottom: 1px solid #383838;
+}
+
+#tab-options {
+  display: flex;
+  gap: 10px;
+  margin-right: 20px;
+}
+
+.options {
+  width: 24px;
+  height: 24px;
+  border: none;
+  background: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 5px;
+  transition: background-color 0.2s;
+}
+
+.options:hover {
+  background-color: #333333;
+  border-radius: 4px;
+}
+
+#search-top {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  background-color: #333333;
+  border-radius: 16px;
+  padding: 8px;
+  max-width: 700px;
+}
+
+#top-search {
+  width: 100%;
+  border: none;
+  background: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 4px 10px;
+}
+
+#top-search::placeholder {
+  color: #c2c2c2;
+}
+
+#top-search:focus {
+  outline: none;
+}
+
 main {
   align-items: center;
   text-align: center;
