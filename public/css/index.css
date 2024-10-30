@@ -19,8 +19,9 @@ nav {
   display: flex;
   align-items: center;
   padding: 8px 0 8px 16px;
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #tab-options {
