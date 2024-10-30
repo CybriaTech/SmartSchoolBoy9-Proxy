@@ -78,7 +78,6 @@ main {
   align-items: center;
   text-align: center;
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
   overflow: hidden;
 }
@@ -99,6 +98,7 @@ main {
   height: auto; 
   object-fit: contain;
   text-align: center;
+  align-items: center;
   margin-bottom: 10px;
 }
 
