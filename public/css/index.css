@@ -15,6 +15,32 @@ header {
   border-bottom: 1px solid #383838;
 }
 
+#tabs {
+  display: flex;
+  padding: 8px;
+  border-bottom: 1px solid #383838;
+}
+
+.tab {
+  padding: 6px 12px;
+  margin-right: 8px;
+  background-color: #333333;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.tab:hover {
+  background-color: #444444;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+}
+
 #tab-options {
   display: flex;
   gap: 10px;
