@@ -80,8 +80,8 @@ main {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  margin-top: 50%;
-  margin-botton: 50%;
+  left: 50%;
+  top: 50%;
 }
 
 #title-area {
