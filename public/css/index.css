@@ -79,10 +79,13 @@ main {
   text-align: center;
   display: flex;
   min-height: 100vh;
-  margin-top: 50%;
-  margin-botton: 50%;
   flex-direction: column;
   overflow: hidden;
+}
+
+#main {
+  margin-top: 50%;
+  margin-botton: 50%;
 }
 
 #title-area {
