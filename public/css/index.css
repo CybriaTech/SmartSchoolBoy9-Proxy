@@ -83,11 +83,6 @@ main {
   overflow: hidden;
 }
 
-#main {
-  top: 0;
-  left: 0;
-}
-
 #title-area {
   display: flex;
   flex-direction: column;
