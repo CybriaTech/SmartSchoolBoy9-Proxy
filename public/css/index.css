@@ -79,7 +79,8 @@ main {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  top: 0;
+  top: 0%;
+  width: 99%;
   justify-content: center;
   position: absolute;
 }
