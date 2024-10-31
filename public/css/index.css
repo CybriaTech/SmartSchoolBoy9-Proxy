@@ -76,15 +76,11 @@ nav {
 
 main {
   align-items: center;
-  text-align: center;
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  justify-content: center;
   top: 0;
-  left: 0;
-  box-sizing: border-box;
-  position: relative;
+  position: absolute;
 }
 
 #title-area {
