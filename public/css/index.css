@@ -81,6 +81,11 @@ main {
   flex-direction: column;
   overflow: hidden;
   justify-content: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
 }
 
 #title-area {
