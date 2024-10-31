@@ -81,8 +81,8 @@ main {
   flex-direction: column;
   overflow: hidden;
   justify-content: center;
-  margin: 0;
-  padding: 0;
+  top: 0;
+  left: 0;
   box-sizing: border-box;
   position: absolute;
 }
