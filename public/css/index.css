@@ -80,6 +80,7 @@ main {
   flex-direction: column;
   overflow: hidden;
   top: 0;
+  justify-content: center;
   position: absolute;
 }
 
