@@ -4,7 +4,6 @@ const uvframe = document.getElementById('uv-frame');
 
 form.addEventListener('submit', async event => {
     event.preventDefault();
-    uvframe.style.display = 'flex';
     window.navigator.serviceWorker.register('./sw.js', {
         scope: __uv$config.prefix
     }).then(() => {
@@ -12,17 +11,10 @@ form.addEventListener('submit', async event => {
         if (!isUrl(url)) url = 'https://www.google.com/search?q=' + url;
         else if (!(url.startsWith('https://') || url.startsWith('http://'))) url = 'http://' + url;
 
-        var rawurl;
-
-        if (!isUrl(url)) {
-            rawurl = 'https://www.google.com/search?q=' + url;
-        } else {
-            rawurl = (url.startsWith('https://') || url.startsWith('http://')) ? url : 'http://' + url;
-        }
-
+        const rawurl = url;
 
         uvframe.src = __uv$config.prefix + __uv$config.encodeUrl(url);
-        document.getElementById('#top-search').value = rawurl;
+        document.getElementById('top-search').value = rawurl;
     });
 });
 
