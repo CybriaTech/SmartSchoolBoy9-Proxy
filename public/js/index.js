@@ -1,9 +1,10 @@
-const form = document.querySelector('form', '#search-top');
+const form = document.querySelector('form');
 const uvbar = document.querySelector('.uv-bar', '#top-search');
 const uvframe = document.getElementById('uv-frame');
 
 form.addEventListener('submit', async event => {
     event.preventDefault();
+    uvbar.preventDefault();
     form.style.display = 'none';
     uvframe.style.display = 'block';
     window.navigator.serviceWorker.register('./sw.js', {
