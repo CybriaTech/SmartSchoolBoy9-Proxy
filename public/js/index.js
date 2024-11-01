@@ -4,6 +4,8 @@ const uvframe = document.getElementById('uv-frame');
 
 form.addEventListener('submit', async event => {
     event.preventDefault();
+    form.style.display = 'none';
+    uvframe.style.display = 'block';
     window.navigator.serviceWorker.register('./sw.js', {
         scope: __uv$config.prefix
     }).then(() => {
