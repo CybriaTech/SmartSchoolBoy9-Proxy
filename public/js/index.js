@@ -1,11 +1,11 @@
-const form = document.querySelector('form');
+const uvform = document.querySelector('form');
 const uvbar = document.querySelector('.uv-bar', '#top-search');
 const uvframe = document.getElementById('uv-frame');
 
-form.addEventListener('submit', async event => {
+uvform.addEventListener('submit', async event => {
     event.preventDefault();
     uvbar.preventDefault();
-    form.style.display = 'none';
+    uvform.style.display = 'none';
     uvframe.style.display = 'block';
     window.navigator.serviceWorker.register('./sw.js', {
         scope: __uv$config.prefix
