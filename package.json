@@ -10,7 +10,7 @@
   "author": "CybriaTech",
   "license": "ISC",
   "dependencies": {
-    "@tomphttp/bare-server-node": "^2.0.4",
+    "@nebula-services/bare-server-node": "^2.0.4",
     "@types/node": "^18.0.6",
     "serve-static": "^1.16.2",
     "node-static": "^0.7.11"
