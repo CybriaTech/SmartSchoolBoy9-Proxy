@@ -17,8 +17,7 @@ uvform.addEventListener('submit', async event => {
         else if (!(url.startsWith('https://') || url.startsWith('http://'))) url = 'http://' + url;
 
         const rawurl = url;
-        const proxied = __uv$config.prefix + __uv$config.encodeUrl(url);
-        window.location.href = proxied;
+        window.location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
         uvbar.value = url;
     });
 });
