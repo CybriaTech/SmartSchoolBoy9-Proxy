@@ -4,7 +4,7 @@ import nodeStatic from 'node-static';
 
 
 const bare =  createServer('/bare/');
-const serve = new nodeStatic.Server('static/');
+const serve = new nodeStatic.Server('public/');
 
 const server = http.createServer();
 
