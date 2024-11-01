@@ -58,15 +58,6 @@ nav {
   z-index: 200;
 }
 
-#top-search {
-  width: 100%;
-  border: none;
-  background: none;
-  color: #fff;
-  font-size: 16px;
-  padding: 4px 10px;
-}
-
 #top-search::placeholder {
   color: #c2c2c2;
 }
