@@ -1,5 +1,5 @@
 const uvform = document.querySelector('form');
-const uvbar = document.querySelector('#top-search input.uv-bar');
+const uvbar = document.querySelector('input');
 /* const uvframe = document.getElementById('uv-frame');
 const burners = document.querySelectorAll('input.uv-bar, .subtitle, #title-area'); */
 
