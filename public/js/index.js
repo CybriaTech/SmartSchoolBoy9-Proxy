@@ -1,5 +1,5 @@
 const uvform = document.querySelector('form');
-const uvbar = document.querySelector('.uv-bar', '#top-search');
+const uvbar = document.querySelector('#top-search .uv-bar');
 const uvframe = document.getElementById('uv-frame');
 
 uvform.addEventListener('submit', async event => {
