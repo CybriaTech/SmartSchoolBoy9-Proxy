@@ -1,0 +1,18 @@
+{
+  "name": "SmartSchoolBoy9",
+  "version": "1.0.0",
+  "description": "The SmartSchoolBoy9 Proxy is a fast ultraviolet proxy designed to enhance unfiltered browsing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tomphttp/bare-server-node": "^2.0.4",
+    "@types/node": "^18.0.6",
+    "serve-static": "^1.16.2"
+    "node-static": "^0.7.11"
+  }
+}
