@@ -1,10 +1,13 @@
 const uvform = document.querySelector('form');
 const uvbar = document.querySelector('#top-search input.uv-bar');
 const uvframe = document.getElementById('uv-frame');
+const burners = document.querySelectorAll('input.uv-bar, .subtitle, #title-area');
 
 uvform.addEventListener('submit', async event => {
     event.preventDefault();
-    uvform.style.display = 'none';
+    burners.forEach(burner => {
+        burner.style.display = 'none';
+    });
     uvframe.style.display = 'block';
     window.navigator.serviceWorker.register('./sw.js', {
         scope: __uv$config.prefix
@@ -14,10 +17,9 @@ uvform.addEventListener('submit', async event => {
         else if (!(url.startsWith('https://') || url.startsWith('http://'))) url = 'http://' + url;
 
         const rawurl = url;
-
         const proxied = __uv$config.prefix + __uv$config.encodeUrl(url);
-
         uvframe.src = proxied;
+        uvbar.value = url;
     });
 });
 
