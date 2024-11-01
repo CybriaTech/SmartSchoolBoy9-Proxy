@@ -16,7 +16,6 @@ form.addEventListener('submit', async event => {
         const rawurl = url;
 
         uvframe.src = __uv$config.prefix + __uv$config.encodeUrl(url);
-        document.getElementById('top-search').value = rawurl;
     });
 });
 
