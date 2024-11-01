@@ -100,19 +100,6 @@ main {
   font-weight: bold;
 }
 
-.uv-bar {
-  width: 1000px;
-  height: 70px;
-  border-radius: 10px;
-  border: none;
-  background-color: #282828;
-  padding-inline-end: 40px;
-  padding-left: 10px;
-  position: relative;
-  color: #fff;
-  font-size: 50px;
-}
-
 .uv-bar::placeholder {
   color: #c2c2c2;
   font-size: 50px;
