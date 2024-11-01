@@ -58,6 +58,15 @@ nav {
   z-index: 200;
 }
 
+#top-search {
+  width: 100%;
+  border: none;
+  background: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 4px 10px;
+}
+
 #top-search::placeholder {
   color: #c2c2c2;
 }
@@ -98,6 +107,19 @@ main {
   text-align: center;
   font-size: 1.3em;
   font-weight: bold;
+}
+
+.uv-bar {
+  width: 1000px;
+  height: 70px;
+  border-radius: 10px;
+  border: none;
+  background-color: #282828;
+  padding-inline-end: 40px;
+  padding-left: 10px;
+  position: relative;
+  color: #fff;
+  font-size: 50px;
 }
 
 .uv-bar::placeholder {
