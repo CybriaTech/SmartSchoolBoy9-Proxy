@@ -1,4 +1,4 @@
-import createServer from '@nebula-services/bare-server-node';
+import { createServer } from '@nebula-services/bare-server-node';
 import http from 'http';
 import nodeStatic from 'node-static';
 
