@@ -18,7 +18,7 @@ uvform.addEventListener('submit', async event => {
 
         const rawurl = url;
         const proxied = __uv$config.prefix + __uv$config.encodeUrl(url);
-        uvframe.src = proxied;
+        window.location.href = proxied;
         uvbar.value = url;
     });
 });
